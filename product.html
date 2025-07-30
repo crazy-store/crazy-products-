@@ -1,0 +1,107 @@
+<!-- Link to this from index.html if needed -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redmi 12 5G - Product Details</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .product-detail {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-detail img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .details {
+      padding: 1rem 0;
+    }
+
+    .details h1 {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    .details p {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .price {
+      font-size: 20px;
+      color: #c0392b;
+      margin: 1rem 0;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 30px;
+      transition: 0.3s ease;
+    }
+
+    .buy-btn:hover {
+      background: linear-gradient(to right, #ff9966, #ff5e62);
+    }
+
+    @media (max-width: 600px) {
+      .product-detail {
+        margin: 1rem;
+      }
+
+      .details h1 {
+        font-size: 1.4rem;
+      }
+
+      .buy-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Product Details</h1>
+    <a href="index.html" style="color: white; text-decoration: underline;">← Back to Store</a>
+  </header>
+
+  <div class="product-detail">
+    <img src="https://m.media-amazon.com/images/I/71dEY4Neo3L._SX679_.jpg"
+         onmouseover="this.src='https://m.media-amazon.com/images/I/81cHpJNr07L._SX679_.jpg';"
+         onmouseout="this.src='https://m.media-amazon.com/images/I/71dEY4Neo3L._SX679_.jpg';"
+         alt="Redmi 12 5G">
+
+    <div class="details">
+      <h1>Redmi 12 5G (Moonstone Silver, 6GB RAM, 128GB)</h1>
+      <div class="price">₹9,999</div>
+      <p>
+        The Redmi 12 5G is an affordable 5G smartphone packed with power and performance. Featuring a 6.79" FHD+ Display, Qualcomm Snapdragon 4 Gen 2 processor, and a 5000mAh battery for long-lasting use.
+      </p>
+      <p><strong>Highlights:</strong></p>
+      <ul>
+        <li>6.79" FHD+ LCD Display with 90Hz Refresh Rate</li>
+        <li>50MP AI Dual Camera</li>
+        <li>18W Fast Charging, USB Type-C</li>
+        <li>Android 13-based MIUI 14</li>
+      </ul>
+
+      <a class="buy-btn" href="https://www.amazon.in/dp/B0BY8M2RZC?tag=yourtag-21" target="_blank">Buy on Amazon</a>
+    </div>
+  </div>
+</body>
+</html>
